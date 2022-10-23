@@ -26,22 +26,3 @@
 .product__price {
   margin-top: 5px;
 }
-
-.product > button {
-  background-color: #f0c14b;
-  border: 1px solid #f0c14b;
-  padding: 10px 15px;
-  width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.product__rating {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
-.product__star {
-  color: #cd9042;
-}

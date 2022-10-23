@@ -31,7 +31,9 @@ const Product = ({ id, title, price, rating, image }) => {
         </div>
       </div>
       <img src={image} alt="product" />
-      <button onClick={addToBasket}>Add to basket</button>
+      <button className="amazonButton" onClick={addToBasket}>
+        Add to basket
+      </button>
     </div>
   );
 };
